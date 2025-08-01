@@ -8,6 +8,5 @@ fun main() {
     println(doc.title())
     val newsHeadLines: org.jsoup.select.Elements = doc.select("#mp-itn b a")
     println(newsHeadLines)
-
 }
 
