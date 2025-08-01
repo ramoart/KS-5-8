@@ -14,6 +14,5 @@ fun main() {
     for (quote in quotes) {
         println(quote.text)
     }
-
     driver.quit()
 }
